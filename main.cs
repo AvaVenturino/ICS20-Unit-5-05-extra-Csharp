@@ -21,11 +21,11 @@ class Program
         sideC = Convert.ToInt32(Console.ReadLine());
         if (sideA > 0 && sideB > 0 && sideC > 0) {
           if ( sideA == sideB && sideB == sideC ) {
-            Console.Write ("This is an equilateral triangle.\n");
+              Console.Write ("This is an equilateral triangle.\n");
           } else if (sideA == sideB || sideA == sideC || sideB == sideC) {
-            Console.Write ("This is an isosceles triangle.\n");
+              Console.Write ("This is an isosceles triangle.\n");
           } else {
-            Console.Write ("This is a scalene triangle.\n");
+              Console.Write ("This is a scalene triangle.\n");
           }
         } else {
           Console.Write ("Input is negative. Try again.\n");

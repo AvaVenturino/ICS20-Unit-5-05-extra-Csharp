@@ -14,7 +14,7 @@ class Program
         int sideC;
         Console.Write("Check whether a triangle is Equilateral, Isosceles or Scalene:\n");
         Console.Write("Input side 1 of triangle: ");
-        sideA= Convert.ToInt32(Console.ReadLine());
+        sideA = Convert.ToInt32(Console.ReadLine());
         Console.Write("Input side 2 of triangle: ");
         sideB= Convert.ToInt32(Console.ReadLine());
         Console.Write("Input side 3 of triangle: ");

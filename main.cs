@@ -29,5 +29,6 @@ class Program
       }
     } else {
         Console.Write("Input is negative. Try again.\n");
+  }
  }
 }

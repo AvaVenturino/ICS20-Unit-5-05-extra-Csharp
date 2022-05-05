@@ -24,11 +24,10 @@ class Program
         Console.Write("This is an equilateral triangle.\n");  
       } else if(sideA==sideB || sideA==sideC || sideB==sideC) {  
         Console.Write("This is an isosceles triangle.\n");  
-      } else if (sideA!=sideB || sideA!=sideC || sideB!=sideC){  
-        Console.Write("This is a scalene triangle.\n");  
-      } else {
-        Console.Write("Input is wrong. Try again.\n");
+      } else {  
+        Console.Write("This is a scalene triangle.\n");
       }
-    }
+    } else {
+        Console.Write("Input is negative. Try again.\n");
  }
 }
